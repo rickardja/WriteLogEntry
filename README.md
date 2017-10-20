@@ -11,7 +11,7 @@ This function will write to a log file.  You can specify if the log type is:
    This function will by default create a log file in the parent folder of the calling scope, but
    you can specify a seperate log location if you choose.
 ```
-$ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath(‘.\’)\log.log
+$ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath(â€˜.\â€™)\log.log
 ```
    
    The default parameter set for this function is the Info logging, but there are 2 other sets
@@ -71,7 +71,7 @@ System.Management.Automation.ErrorRecord
 ## NOTES
    Name: Write-LogEntry
    Created by: Josh Rickard
-   Created Date: 04/01/2017
+   Created Date: 10/20/2017
 ## FUNCTIONALITY
    Write-LogEntry is a PowerShell helper function that will accept or create a log file and
    add strings based on severity, as well as parse $error[0] records for easy interpretation
