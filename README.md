@@ -1,5 +1,5 @@
 # WriteLogEntry
-A PowerShell helper function to create and write information to a log file
+A PowerShell helper function to create and write information to a log file for easy parsing
 
 ## Synopsis
 Used to create and output information from functions
